@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("Core branch intelligence layer for automated local repository maintenance")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("0.1.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("0.1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("0.1.0+8de08c6dee5f7129a434635147f430c83bb07c6e")]
 [assembly: System.Reflection.AssemblyProductAttribute("LocalRepoAuto.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LocalRepoAuto.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("0.1.0.0")]

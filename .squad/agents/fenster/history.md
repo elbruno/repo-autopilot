@@ -7,6 +7,103 @@
 **Repository:** C:\src\localRepoAuto  
 **Universe:** Reservoir Dogs (Backend Dev)
 
+## Phase 3: Semantic Conflict Resolution
+
+**Completed:** 2026-03-11  
+**Status:** ✅ Complete and Building Successfully
+
+### Deliverables
+
+#### 1. Architecture & Decision Document
+- **File:** `.squad/decisions/inbox/fenster-phase3-conflict-resolution.md`
+- **Contents:**
+  - Complete Copilot SDK integration design with graceful fallback
+  - Conflict resolver agent implementation strategy
+  - Merge strategy selection algorithm with 5 strategies
+  - Resolution proposal system with confidence scoring
+  - Error handling and fallback hierarchy
+  - Unit testing strategy for Hockney (28–36 test cases)
+
+#### 2. Core Implementation (8 Source Files)
+
+**Interfaces:**
+- `IConflictResolver.cs` — Main conflict resolution orchestration
+- `ICopilotService.cs` — Copilot SDK wrapper interface
+- `IMergeStrategySelector.cs` — Strategy selection interface
+
+**Implementations:**
+- `ConflictResolver.cs` — Agent for orchestrating resolution
+- `CopilotService.cs` — Copilot SDK integration with fallback heuristics
+- `MergeStrategySelector.cs` — Strategy selection logic
+
+**Models:**
+- `ResolutionStrategy.cs` — Enums for strategies, conflict types, validation
+- `ConflictProposal.cs` — Models for proposals, requests, responses
+
+### Key Features Implemented
+
+1. **Copilot Service Module**
+   - ✅ Semantic diff analysis via SDK (with heuristic fallback)
+   - ✅ Resolution suggestion generation (1–3 proposals)
+   - ✅ Conflict type classification
+   - ✅ Input validation (path traversal, size limits)
+   - ✅ Rate limiting and timeout handling
+   - ✅ Comprehensive audit logging
+
+2. **ConflictResolver Agent**
+   - ✅ Multi-strategy resolution orchestration
+   - ✅ Proposal generation with confidence scores
+   - ✅ Syntax validation and semantic checks
+   - ✅ Recursive, ORT, and deterministic merge strategies
+   - ✅ Audit trail for all resolutions
+
+3. **MergeStrategySelector**
+   - ✅ Intelligent strategy selection (5 strategies)
+   - ✅ Whitespace, deletion, signature change detection
+   - ✅ Safety-first approach (require human review for complex cases)
+   - ✅ Rationale logging for decisions
+
+4. **Models & Enums**
+   - ✅ `ResolutionStrategy` enum (Recursive, ResolveOurs, ResolveTheirs, ORT, RequiresHumanReview)
+   - ✅ `SemanticConflictType` enum (7 types with descriptions)
+   - ✅ `ConflictProposal` with confidence, risks, validation
+   - ✅ `ResolutionRequest/Response` envelopes
+   - ✅ `ValidationResult` with error/warning tracking
+
+### Build Status
+
+**Build Result:** ✅ Success (0 Errors, 12 Warnings)
+- All 8 Phase 3 modules compile without errors
+- Clean integration with Phase 2 foundations (ConflictDetector, ConflictInfo)
+- Zero dependencies on missing Phase 1/4 code
+- Ready for unit tests by Hockney
+- Ready for integration by Keaton
+
+### Technical Decisions
+
+1. **No Hard Copilot SDK Dependency** — Wrapped with try/catch fallback
+2. **Graceful Degradation** — Deterministic heuristics if SDK unavailable
+3. **Confidence Scoring** — 0.0–1.0 scale for human-in-the-loop decisions
+4. **Multi-Strategy Support** — 5 merge strategies with safety-first ordering
+5. **Comprehensive Audit Logging** — Every decision logged with rationale
+6. **Input Validation** — Security checks for path traversal, size limits
+
+### Next Steps
+
+**For Hockney (Testing):**
+- Implement 28–36 unit tests
+- Test all merge strategies with real conflicts
+- Validate Copilot SDK integration
+- Test fallback behavior (SDK unavailable)
+- Stress test with large diffs (5MB+)
+
+**For Keaton (Orchestration):**
+- Integrate ConflictResolver into agent framework
+- Wire Copilot SDK initialization
+- Build CLI for reviewing proposals
+- Implement audit trail persistence
+- Create user workflow for human review
+
 ## Phase 2: Branch Intelligence Layer
 
 **Completed:** 2026-03-10  

@@ -1,11 +1,11 @@
+C:\src\localRepoAuto\src\LocalRepoAuto.Core\bin\Debug\net7.0\LocalRepoAuto.Core.deps.json
+C:\src\localRepoAuto\src\LocalRepoAuto.Core\bin\Debug\net7.0\LocalRepoAuto.Core.dll
+C:\src\localRepoAuto\src\LocalRepoAuto.Core\bin\Debug\net7.0\LocalRepoAuto.Core.pdb
 C:\src\localRepoAuto\src\LocalRepoAuto.Core\obj\Debug\net7.0\LocalRepoAuto.Core.csproj.AssemblyReference.cache
 C:\src\localRepoAuto\src\LocalRepoAuto.Core\obj\Debug\net7.0\LocalRepoAuto.Core.GeneratedMSBuildEditorConfig.editorconfig
 C:\src\localRepoAuto\src\LocalRepoAuto.Core\obj\Debug\net7.0\LocalRepoAuto.Core.AssemblyInfoInputs.cache
 C:\src\localRepoAuto\src\LocalRepoAuto.Core\obj\Debug\net7.0\LocalRepoAuto.Core.AssemblyInfo.cs
 C:\src\localRepoAuto\src\LocalRepoAuto.Core\obj\Debug\net7.0\LocalRepoAuto.Core.csproj.CoreCompileInputs.cache
-C:\src\localRepoAuto\src\LocalRepoAuto.Core\bin\Debug\net7.0\LocalRepoAuto.Core.deps.json
-C:\src\localRepoAuto\src\LocalRepoAuto.Core\bin\Debug\net7.0\LocalRepoAuto.Core.dll
-C:\src\localRepoAuto\src\LocalRepoAuto.Core\bin\Debug\net7.0\LocalRepoAuto.Core.pdb
 C:\src\localRepoAuto\src\LocalRepoAuto.Core\obj\Debug\net7.0\LocalRepoAuto.Core.dll
 C:\src\localRepoAuto\src\LocalRepoAuto.Core\obj\Debug\net7.0\refint\LocalRepoAuto.Core.dll
 C:\src\localRepoAuto\src\LocalRepoAuto.Core\obj\Debug\net7.0\LocalRepoAuto.Core.pdb
