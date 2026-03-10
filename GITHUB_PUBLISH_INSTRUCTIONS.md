@@ -16,10 +16,10 @@ Go to https://github.com/new and create a new private repository with these sett
 - **Initialize:** Do NOT initialize (we have an existing repo)
 
 ### 2. Add Remote and Push
-Run these commands in the repository directory (C:\src\localRepoAuto):
+Run these commands in the repository directory (C:\src\localRepoAuto or wherever repo-autopilot is cloned):
 
 ```powershell
-cd C:\src\localRepoAuto
+cd C:\src\localRepoAuto  # or wherever repo-autopilot is located
 
 # Remove any existing origin remote (if present)
 git remote remove origin 2>$null

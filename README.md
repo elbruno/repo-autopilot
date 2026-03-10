@@ -1,4 +1,4 @@
-# Local Repository Auto-Maintenance with GitHub Copilot SDK
+# repo-autopilot
 
 Automate your local repository maintenance with intent-driven agentic workflows powered by the GitHub Copilot SDK and Microsoft Agent Framework.
 
@@ -50,8 +50,8 @@ We've built a system that:
 
 ```bash
 # Clone and build
-git clone https://github.com/your-org/local-repo-auto.git
-cd local-repo-auto
+git clone https://github.com/elbruno/repo-autopilot.git
+cd repo-autopilot
 dotnet build
 
 # Analyze your repository

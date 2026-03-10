@@ -1,8 +1,8 @@
-# Project Completion Summary
+# repo-autopilot: Project Completion Summary
 
 ## 🏆 Project Status: COMPLETE ✅
 
-**Project:** Automating Local Repository Maintenance with GitHub Copilot SDK and Intent-Driven Agentic Workflows
+**Project:** repo-autopilot — Automating Local Repository Maintenance with GitHub Copilot SDK and Intent-Driven Agentic Workflows
 
 **Timeline:** Single session, all 6 phases completed in sequence with parallel execution where possible
 
