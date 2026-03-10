@@ -1,0 +1,58 @@
+{
+  "registry": [
+    {
+      "persistent_name": "keaton",
+      "universe": "Reservoir Dogs",
+      "cast_character": "Keaton",
+      "role": "Lead",
+      "created_at": "2026-03-10T10:27:10Z",
+      "legacy_named": false,
+      "status": "active"
+    },
+    {
+      "persistent_name": "fenster",
+      "universe": "Reservoir Dogs",
+      "cast_character": "Fenster",
+      "role": "Backend Dev",
+      "created_at": "2026-03-10T10:27:10Z",
+      "legacy_named": false,
+      "status": "active"
+    },
+    {
+      "persistent_name": "hockney",
+      "universe": "Reservoir Dogs",
+      "cast_character": "Hockney",
+      "role": "Tester",
+      "created_at": "2026-03-10T10:27:10Z",
+      "legacy_named": false,
+      "status": "active"
+    },
+    {
+      "persistent_name": "mcmanus",
+      "universe": "Reservoir Dogs",
+      "cast_character": "McManus",
+      "role": "Technical Writer",
+      "created_at": "2026-03-10T10:27:10Z",
+      "legacy_named": false,
+      "status": "active"
+    },
+    {
+      "persistent_name": "scribe",
+      "universe": "Reservoir Dogs",
+      "cast_character": "Scribe",
+      "role": "Session Logger",
+      "created_at": "2026-03-10T10:27:10Z",
+      "legacy_named": false,
+      "status": "active"
+    },
+    {
+      "persistent_name": "ralph",
+      "universe": "Reservoir Dogs",
+      "cast_character": "Ralph",
+      "role": "Work Monitor",
+      "created_at": "2026-03-10T10:27:10Z",
+      "legacy_named": false,
+      "status": "active"
+    }
+  ]
+}

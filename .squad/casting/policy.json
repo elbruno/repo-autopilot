@@ -1,0 +1,17 @@
+{
+  "universe": "Reservoir Dogs",
+  "capacity": 6,
+  "assigned": 6,
+  "allowlist": [
+    "Alien",
+    "Harry Potter",
+    "James Bond",
+    "Lord of the Rings",
+    "Reservoir Dogs",
+    "Star Wars OT",
+    "The Matrix",
+    "The Office",
+    "The Simpsons",
+    "Toy Story"
+  ]
+}
