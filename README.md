@@ -186,23 +186,31 @@ Annual Impact (50-person team):
 
 ## Roadmap
 
-### Phase 1 (Current)
+### Current Release (Phase 1) ✅
 - ✅ Intent parsing and agent orchestration
 - ✅ Stale branch detection and cleanup
 - ✅ Merge conflict analysis
 - ✅ Audit trails and rollback
 
-### Phase 2 (Planned)
-- 🔄 Predictive maintenance (anticipate conflicts)
-- 🔄 Distributed cleanup across team repos
-- 🔄 Machine learning-driven risk scoring
-- 🔄 GitHub Actions integration
+> **Phase 1 is production-ready.** All core features are implemented, tested (>85% coverage), and documented.
 
-### Phase 3 (Future)
-- 🔮 Multi-language support
+### Vision for Future Releases
+
+We have exciting ideas for expanding repo-autopilot. These are aspirational features under consideration for future releases — not committed deliverables:
+
+**Phase 2 (Exploration)**
+- 🔮 Predictive maintenance (anticipate conflicts before they occur)
+- 🔮 Distributed cleanup across team repositories
+- 🔮 Machine learning-driven risk scoring
+- 🔮 GitHub Actions integration for scheduled cleanups
+
+**Phase 3 (Long-term Vision)**
+- 🔮 Multi-language support (Python, Go, Rust, etc.)
 - 🔮 Cloud sync with local-first fallback
-- 🔮 Collaborative cleanup policies
-- 🔮 Team-wide repository standards
+- 🔮 Collaborative cleanup policies across teams
+- 🔮 Team-wide repository standards and enforcement
+
+Have a feature request? Let's discuss it — [open an issue](https://github.com/elbruno/repo-autopilot/issues).
 
 ## Contributing
 
